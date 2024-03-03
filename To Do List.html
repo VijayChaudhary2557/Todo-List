@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="To Do List.css">
+</head>
+<body>
+    <div class="container">
+        <div class="myBox">
+            <input type="text" class="inputText" placeholder="Enter Task.....">
+            <input type="button" onclick="AddTask()" value="Add Task" class="inputBtn input-color">
+        </div>
+        <div class="taskList">
+            <h1>.:<u>Task List</u>:.</h1>
+        </div>
+        <div class="submit">
+            <button class="inputBtn done-color" onclick="done()">Done</button>
+            <button class="inputBtn delet-color" onclick="allDel()">Delete</button>
+        </div>
+    </div>
+    <script src="To Do List.js"></script>
+</body>
+</html>

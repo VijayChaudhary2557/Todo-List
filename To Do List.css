@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+.container {
+    /* background-image: linear-gradient(to bottom right, rgb(255, 137, 137), rgb(117, 117, 251)); */
+    background-color: rgba(128, 128, 128, 0.556);
+    /* border: 2px solid gray; */
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.taskList h1 {
+    font-size: 80px;
+    color: #050f2c;
+}
+.inputText {
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    background-color: aliceblue;
+    margin: 5px;
+}
+.inputBtn {
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    margin: 5px;
+}
+.mainDiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.textP {
+    font-size: 25px;
+    vertical-align: bottom;
+}
+.taskBTN {
+    border: 2px solid ;
+    color: white;
+    background-color: black;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.input-color {
+    background-color: #be0027;
+    color: white;
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+.done-color {
+    background-color:  #00112c;
+    color: white;
+    font-size: 18px;
+}
+.delet-color {
+    background-color: #008374;
+    color: white;
+    font-size: 18px;
+}
+
+.checkBtn {
+    background-color:  #74d2e7;
+    color: white;
+    font-size: 18px;
+}
+.updateBtn {
+    background-color:  #7f181b;
+    color: white;
+    font-size: 18px;
+}
+.deletBtn {
+    background-color:  #fb8a2e;
+    color: white;
+    font-size: 18px;
+}
